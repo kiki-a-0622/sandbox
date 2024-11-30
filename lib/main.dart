@@ -24,7 +24,7 @@ class App extends StatelessWidget {
           surface: const Color.fromARGB(255, 25, 118, 210), // ネイビーブルー
         ),
         scaffoldBackgroundColor:
-            const Color.fromARGB(255, 199, 220, 252), // ダークブルー
+            const Color.fromARGB(255, 219, 230, 245), // ダークブルー
       ),
       home: const HomeScreen(),
     );
