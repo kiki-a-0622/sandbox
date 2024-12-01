@@ -36,7 +36,7 @@ class GirdFunctionItem extends StatelessWidget {
                 ),
               ),
               child: Text(
-                'ランダム本メーカー',
+                'ISBN-Lottery',
                 style: Theme.of(context).textTheme.titleSmall!.copyWith(
                       color: Theme.of(context).colorScheme.onSurface,
                     ),

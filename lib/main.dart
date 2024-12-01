@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:sandbox/screens/home.dart';
+import 'package:sandbox/screens/isbn_Lottery.dart';
 
 void main() {
   runApp(
@@ -26,7 +27,8 @@ class App extends StatelessWidget {
         scaffoldBackgroundColor:
             const Color.fromARGB(255, 219, 230, 245), // ダークブルー
       ),
-      home: const HomeScreen(),
+      // home: const HomeScreen(),
+      home: const IsbnLotteryScreen(),
     );
   }
 }
